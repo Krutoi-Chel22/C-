@@ -7,5 +7,9 @@ int main() {
 	int a;
 	cout << "Введите число:";
 	cin >> a;
-	cout << a;
+
+	if (a % 2 == 0) 
+		cout << "Число чётное"; 
+	else 
+		cout << "Число нечётное"; 
 }
